@@ -1,0 +1,39 @@
+insert assert  PROG_SH == SECTION_SH
+   |
+   ---------   section name check
+
+no check dynsym
+next 
+0.make disassembly class
+1.check bss 
+2.check symbol within .text(no stripped)
+3.divided machine code in .text(no stripped)
+
+0.現在作成中
+1.おわった
+2,3.終わった
+
+現在のタスク
+
+機械語の対応表を作っている
+シュミレータークラスを作る
+連携する
+擬似コードを作る
+
+x86_64 進捗
+mov reg,reg 一部おかしい
+and reg,reg レジスタのみ終わり
+push        r8~がまだ
+pop	    同上
+xor reg,reg b4 3
+ret 
+leave
+hlt
+
+次のコード
+add
+sub
+mov 即値
+cmp
+jmp
+jne
