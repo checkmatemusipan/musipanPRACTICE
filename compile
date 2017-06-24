@@ -1,0 +1,1 @@
+g++ -std=c++11 func_test.cpp read_file.cpp ndisasm.cpp x86_64disas.cpp func_class.cpp test.cpp
